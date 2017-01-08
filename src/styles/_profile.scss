@@ -1,0 +1,50 @@
+//
+// Profile Box
+//
+
+.profile-box {
+  width: 100%;
+  text-align: center;
+
+  &__image {
+    width: 100%;
+    text-align: center;
+
+    img {
+      max-width: 200px;
+      border-radius: 50%;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__label {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px;
+    background: $primary-color;
+    color: #fff;
+  }
+  &__detail {
+    margin: 8px 0;
+  }
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  &__item {
+    display: inline-block;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+  }
+}
