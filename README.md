@@ -9,3 +9,4 @@ Sample static resume build React + ES6 + Webpack
 4. Build dist: `webpack`
 
 # Demo
+https://github.com/ilkeryilmaz/react-resume
